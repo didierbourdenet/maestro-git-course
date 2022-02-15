@@ -1,16 +1,16 @@
-En tant que...
-Je veux...
-Afin de...
+En tant qu'utilisateur qui se connecte avec un nouveau navigateur
+Je veux que le bon coin m'envoie un code par SMS 
+Afin de afin d'authentifier ma connection..
 
 ===============================
 
 Critères d'acceptances:
 #1
-GIVEN
-WHEN
-THEN
+GIVEN navigateur non connu
+WHEN l'utilisateur se connecte
+THEN envoi du code SMS
 
 #2
-GIVEN
-WHEN
-THEN
+GIVEN dernière connection > 30j
+WHEN l'utilisateur se connecte
+THEN envoi du code SMS
